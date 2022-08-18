@@ -315,7 +315,6 @@ section article a {
 .companies {
     background: #403E3B;
 
-
 }
 
 .comp-container {
@@ -372,4 +371,36 @@ section article a {
 
 .stud {
     padding-top: 128px;
+}
+.staircase{
+    background-image: url("images/case.jpg");
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.stair-container{
+    max-width: 285px;
+    margin-left: 60px;
+}
+.stair-container h3{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #403E3B;
+
+}
+.stair-container p{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #645C55;
+
 }
