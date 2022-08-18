@@ -1,0 +1,111 @@
+@media screen and (max-width: 1875px) {
+
+}
+@media screen and (max-width: 992px) {
+    .container {
+        padding: 0 15px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+    .iformation-item .process-container {
+        flex-direction: column;
+    }
+    .iformation-item .process-container p{
+        margin: auto;
+    }
+    .main-banner article{
+        padding-top: 10px;
+        max-width: 300px;
+    }
+    .main-title{
+        font-size: 24px;
+    }
+    .about{
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    .main-banner article a{
+        font-size: 12px;
+    }
+    .iformation .third-container p{
+        font-size: 12px;
+    }
+    .first-container{
+        padding: 0 15px;
+    }
+    .comp-container{
+        padding: 0 15px;
+    }
+}
+@media screen and (max-width: 625px) {
+    .container {
+        padding: 0 15px;
+    }
+    .main-banner article{
+        padding-top: 10px;
+        max-width: 200px;
+    }
+}
+@media screen and (max-width: 428px) {
+    .container {
+        padding: 0 15px;
+    }
+    .main-banner article{
+        padding-top: 10px;
+        max-width: 150px;
+
+}
+    .main-title{
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .comp-container{
+        flex-direction: column;
+        padding: 0 15px;
+    }
+    .comp-container a{
+        padding-top: 45px;
+    }
+}
+
+@media screen and (min-width: 320px) {
+.container {
+    padding: 0 15px;
+}
+.main-banner article{
+
+}
+.cd-3d-nav a {
+    color: #1B1A1A;
+
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* truncate text with ellipsis if too long */
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis; }
+    .cd-3d-nav a::before {
+        top: 4.4em;
+        left: 50%;
+        right: auto;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%); }
+    main.nav-is-visible {
+        -webkit-transform: translateY(170px);
+        -moz-transform: translateY(170px);
+        -ms-transform: translateY(170px);
+        -o-transform: translateY(170px);
+        transform: translateY(170px); }
+    main h1 {
+        font-size: 3.6rem;
+        margin: 4em auto; }
+    .cd-3d-nav-container {
+        height: 100%; }
+}

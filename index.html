@@ -5,64 +5,73 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
         
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap"
           rel="stylesheet">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https:///code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://resources/demos/style.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
 </head>
 <body>
 
-<header>
-    <div class="container d-flex">
+
+
+<header >
+        <div class="container d-flex">
         <a href="#">
             <img src="images/logo.svg" alt="logo">
         </a>
+            <a href="#" class="cd-3d-nav-trigger">
+                Menu
+                <span></span>
+            </a>
+            <nav class="cd-3d-nav-container">
+                <ul class="cd-3d-nav">
+                    <li class="cd-selected">
+                        <a href="#" class="navigation-name">
+                            Projects
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="navigation-name">
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="navigation-name">
+                            News
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="navigation-name">
+                            Team
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="navigation-name">
+                            Contact
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="navigation-name">
+                            Get template
+                        </a>
+                    </li>
+                    <span class="cd-marker color-1"></span>
+                    </ul>
 
-        <nav>
-            <ul>
-                <li>
-                    <a href="#" class="navigation-name">
-                        Projects
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="navigation-name">
-                        About
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="navigation-name">
-                        News
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="navigation-name">
-                        Team
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="navigation-name">
-                        Contact
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        Get template
-                    </a>
-                </li>
-
-            </ul>
-        </nav>
-
-
-    </div>
-
-
+            </nav>
+        </div>
 </header>
+
+
 
 <section class="main-banner">
     <div class="container">
@@ -124,7 +133,7 @@
 </section>
 <section class="iformation-item">
 
-    <div class="process">
+    <div class="container">
         <h3>
             Our process
         </h3>
@@ -186,17 +195,18 @@
                 Happy customers.
             </h4>
             <p>
-                Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula. Vestibulum sit amet urna turpis. Mauris
+                Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula. Vestibulum sit amet urna turpis.
+                Mauris
                 euismod elit et nisi ultrices, ut faucibus orci tincidunt.
             </p>
         </div>
 
         <div class="comp-img">
-            <a href="#"> <img src="images/hill.jpg" alt="hill">    </a>
-            <a href="#" class="stud"><img src="images/stud.jpg" alt="stud">  </a>
+            <a href="#"> <img src="images/hill.jpg" alt="hill"> </a>
+            <a href="#" class="stud"><img src="images/stud.jpg" alt="stud"> </a>
         </div>
         <div class="comp-img">
-            <a href="#"> <img src="images/riks.jpg" alt="riks">  </a>
+            <a href="#"> <img src="images/riks.jpg" alt="riks"> </a>
             <a href="#" class="chil"> <img src="images/chill.jpg" alt="chil"> </a>
         </div>
     </div>
@@ -204,16 +214,119 @@
 
 <section class="staircase">
     <div class="stair-container">
-<h3>
-    The swirling staircase
-</h3>
+        <h3>
+            The swirling staircase
+        </h3>
         <p>
             Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet.
         </p>
     </div>
 </section>
 
+<section class="Featured-projects">
+    <div class="container">
+        <h2>
+            Featured projects
+        </h2>
+        <p>
+            Some of the latest and greatest projects from us here at Wishbone+Partners.
+        </p>
 
+        <div id="accordion">
+            <h3>View all projects</h3>
+            <div class="d-flex">
+                <div class="item">
+                    <div class="discription">
+                        <h4><span>
+New York
+            </span>
+                            Big Road Brewery
+                        </h4>
+                        <a href="#">
+                            Read more
+                        </a>
+                    </div>
+                    <img src="images/house1.jpg" alt="house"></div>
+                <div class="item">
+                    <div class="discription">
+                        <h4><span>
+New York
+            </span>
+                            Big Road Brewery
+                        </h4>
+                        <a href="#">
+                            Read more
+                        </a>
+                    </div>
+                    <img src="images/bigroad.jpg" alt="house">
 
+                </div>
+
+                <div class="item">
+                    <div class="discription">
+                        <h4><span>
+New York
+            </span>
+                            Big Road Brewery
+                        </h4>
+                        <a href="#">
+                            Read more
+                        </a>
+                    </div>
+                    <img src="images/house2.jpg" alt="house"></div>
+
+            </div>
+            <h3>View all projects</h3>
+            <div class="d-flex">
+                <div class="item">
+                    <div class="discription">
+                        <h4><span>
+New York
+            </span>
+                            Big Road Brewery
+                        </h4>
+                        <a href="#">
+                            Read more
+                        </a>
+                    </div>
+                    <img src="images/house1.jpg" alt="house"></div>
+                <div class="item">
+                    <div class="discription">
+                        <h4><span>
+New York
+            </span>
+                            Big Road Brewery
+                        </h4>
+                        <a href="#">
+                            Read more
+                        </a>
+                    </div>
+                    <img src="images/bigroad.jpg" alt="house">
+
+                </div>
+
+                <div class="item">
+                    <div class="discription">
+                        <h4><span>
+New York
+            </span>
+                            Big Road Brewery
+                        </h4>
+                        <a href="#">
+                            Read more
+                        </a>
+                    </div>
+                    <img src="images/house2.jpg" alt="house"></div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+<script src="js/scripts.js"></script>
 </body>
 </html>
