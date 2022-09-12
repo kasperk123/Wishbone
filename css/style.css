@@ -39,7 +39,6 @@ header nav ul {
 }
 
 
-
 /*header nav ul li:last-of-type {*/
 /*    margin: 0;*/
 /*}*/
@@ -204,7 +203,7 @@ section article a {
 
 }
 
-.iformation-item .container{
+.iformation-item .container {
     text-align: center;
 }
 
@@ -413,7 +412,7 @@ section article a {
 }
 
 .Featured-projects .container h2 {
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 39px;
@@ -423,7 +422,7 @@ section article a {
 }
 
 .Featured-projects .container p {
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -438,10 +437,12 @@ section article a {
     overflow: hidden;
 
 }
-.Featured-projects .item:hover .discription{
+
+.Featured-projects .item:hover .discription {
     bottom: 0;
 
 }
+
 .Featured-projects .item img {
     display: block;
     width: 100%;
@@ -461,7 +462,7 @@ section article a {
 }
 
 .Featured-projects .discription h4 {
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 23px;
@@ -471,7 +472,7 @@ section article a {
 }
 
 .Featured-projects .discription h4 span {
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -496,9 +497,10 @@ section article a {
     border-radius: 14px;
     text-decoration: none;
 }
+
 .ui-accordion .ui-accordion-header {
 
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -510,11 +512,13 @@ section article a {
     text-align: center;
     padding-top: 53px;
 }
-.ui-icon{
+
+.ui-icon {
     display: none;
 }
+
 .ui-accordion .ui-accordion-content {
-background: none;
+    background: none;
     border: none;
     padding: 0;
 }
@@ -522,28 +526,32 @@ background: none;
 
 /* ---Primary style--- */
 *, *::after, *::before {
-    box-sizing: border-box; }
+    box-sizing: border-box;
+}
 
 a {
-    text-decoration: none; }
+    text-decoration: none;
+}
 
 /* ---Main Components ---- */
 
 
-
 .cd-logo {
     float: left;
-    margin-top: 28px; }
+    margin-top: 28px;
+}
 
 .cd-3d-nav-trigger {
     position: relative;
-    float:right;
+    float: right;
     height: 45px;
     width: 45px;
     overflow: hidden;
     text-indent: 100%;
     white-space: nowrap;
-    color: black; }
+    color: black;
+}
+
 .cd-3d-nav-trigger span,
 .cd-3d-nav-trigger span::before,
 .cd-3d-nav-trigger span::after {
@@ -551,48 +559,65 @@ a {
     position: absolute;
     width: 28px;
     height: 3px;
-    background-color:black;
+    background-color: black;
     -webkit-backface-visibility: hidden;
-    backface-visibility: hidden; }
+    backface-visibility: hidden;
+}
+
 .cd-3d-nav-trigger span {
     /* this is the central line */
     top: 15px;
     left: 8px;
     -webkit-transition: background 0.2s 0.5s;
     -moz-transition: background 0.2s 0.5s;
-    transition: background 0.2s 0.5s; }
+    transition: background 0.2s 0.5s;
+}
+
 .cd-3d-nav-trigger span::before, .cd-3d-nav-trigger span:after {
     /* these are the upper and lower lines */
     content: '';
     left: 0;
     -webkit-transition: -webkit-transform 0.2s 0.5s;
     -moz-transition: -moz-transform 0.2s 0.5s;
-    transition: transform 0.2s 0.5s; }
+    transition: transform 0.2s 0.5s;
+}
+
 .cd-3d-nav-trigger span::before {
-    bottom: 8px; }
+    bottom: 8px;
+}
+
 .cd-3d-nav-trigger span::after {
-    top: 8px; }
+    top: 8px;
+}
+
 .nav-is-visible .cd-3d-nav-trigger span {
     /* hide line in the center */
-    background-color: rgba(255, 255, 255, 0); }
+    background-color: rgba(255, 255, 255, 0);
+}
+
 .nav-is-visible .cd-3d-nav-trigger span::before, .nav-is-visible .cd-3d-nav-trigger span::after {
     /* keep visible other 2 lines */
-    background-color: white; }
+    background-color: white;
+}
+
 .nav-is-visible .cd-3d-nav-trigger span::before {
     -webkit-transform: translateY(8px) rotate(-45deg);
     -moz-transform: translateY(8px) rotate(-45deg);
     -ms-transform: translateY(8px) rotate(-45deg);
     -o-transform: translateY(8px) rotate(-45deg);
-    transform: translateY(8px) rotate(-45deg); }
+    transform: translateY(8px) rotate(-45deg);
+}
+
 .nav-is-visible .cd-3d-nav-trigger span::after {
     -webkit-transform: translateY(-8px) rotate(45deg);
     -moz-transform: translateY(-8px) rotate(45deg);
     -ms-transform: translateY(-8px) rotate(45deg);
     -o-transform: translateY(-8px) rotate(45deg);
-    transform: translateY(-8px) rotate(45deg); }
+    transform: translateY(-8px) rotate(45deg);
+}
 
 .cd-3d-nav-container {
-    /* this is the 3D navigation container */
+
     position: fixed;
     top: 0;
     left: 0;
@@ -600,7 +625,7 @@ a {
     width: 100%;
 
     visibility: hidden;
-    /* enable a 3D-space for children elements */
+
     -webkit-perspective: 1000px;
     -moz-perspective: 1000px;
     perspective: 1000px;
@@ -611,7 +636,9 @@ a {
     transform: translateY(-100%);
     -webkit-transition: -webkit-transform 0.5s 0s, visibility 0s 0.5s;
     -moz-transition: -moz-transform 0.5s 0s, visibility 0s 0.5s;
-    transition: transform 0.5s 0s, visibility 0s 0.5s; }
+    transition: transform 0.5s 0s, visibility 0s 0.5s;
+}
+
 .cd-3d-nav-container.nav-is-visible {
     visibility: visible;
     -webkit-transform: translateY(0);
@@ -621,11 +648,12 @@ a {
     transform: translateY(0);
     -webkit-transition: -webkit-transform 0.5s 0s, visibility 0.5s 0s;
     -moz-transition: -moz-transform 0.5s 0s, visibility 0.5s 0s;
-    transition: transform 0.5s 0s, visibility 0.5s 0s; }
+    transition: transform 0.5s 0s, visibility 0.5s 0s;
+}
 
 
 .cd-3d-nav {
-    /* this is the 3D rotating navigation */
+
     position: relative;
     height: 108px;
     background-color: white;
@@ -644,9 +672,11 @@ a {
     transform: rotateX(90deg);
     -webkit-transition: -webkit-transform 0.5s;
     -moz-transition: -moz-transform 0.5s;
-    transition: transform 0.5s; }
+    transition: transform 0.5s;
+}
+
 .cd-3d-nav::after {
-    /* menu dark cover layer - to enhance perspective effect */
+
     content: '';
     position: absolute;
     top: 0;
@@ -658,7 +688,9 @@ a {
     visibility: visible;
     -webkit-transition: opacity 0.5s 0s, visibility 0.5s 0s;
     -moz-transition: opacity 0.5s 0s, visibility 0.5s 0s;
-    transition: opacity 0.5s 0s, visibility 0.5s 0s; }
+    transition: opacity 0.5s 0s, visibility 0.5s 0s;
+}
+
 .cd-3d-nav li {
 
     height: 100%;
@@ -673,33 +705,45 @@ a {
     color: transparent;
     -webkit-transition: background-color 0.2s;
     -moz-transition: background-color 0.2s;
-    transition: background-color 0.2s; }
+    transition: background-color 0.2s;
+}
 
 .no-touch .cd-3d-nav a:hover {
-    background-color: #ECE7E4; }
+    background-color: #ECE7E4;
+}
+
 .cd-3d-nav .cd-selected a {
-    background-color: #ECE7E4; }
+    background-color: #ECE7E4;
+}
+
 .no-touch .cd-3d-nav .cd-selected a:hover {
-    background-color: #ECE7E4; }
+    background-color: #ECE7E4;
+}
+
 .cd-3d-nav .cd-selected a::before {
-    background-position: 0 -32px; }
+    background-position: 0 -32px;
+}
+
 .nav-is-visible .cd-3d-nav {
     -webkit-transform: translateZ(0);
     -moz-transform: translateZ(0);
     -ms-transform: translateZ(0);
     -o-transform: translateZ(0);
-    transform: translateZ(0); }
+    transform: translateZ(0);
+}
+
 .nav-is-visible .cd-3d-nav::after {
-    /* menu cover layer - hide it when navigation is visible */
+
     opacity: 0;
     visibility: hidden;
     -webkit-transition: opacity 0.5s 0s, visibility 0s 0.5s;
     -moz-transition: opacity 0.5s 0s, visibility 0s 0.5s;
-    transition: opacity 0.5s 0s, visibility 0s 0.5s; }
+    transition: opacity 0.5s 0s, visibility 0s 0.5s;
+}
 
 
 .cd-marker {
-    /* line at the bottom of nav selected item */
+
     position: absolute;
     bottom: 0;
     left: 0;
@@ -718,9 +762,11 @@ a {
     transform: translateZ(0) rotateX(90deg);
     -webkit-transition: -webkit-transform 0.5s, left 0.5s, color 0.5s, background-color 0.5s;
     -moz-transition: -moz-transform 0.5s, left 0.5s, color 0.5s, background-color 0.5s;
-    transition: transform 0.5s, left 0.5s, color 0.5s, background-color 0.5s; }
+    transition: transform 0.5s, left 0.5s, color 0.5s, background-color 0.5s;
+}
+
 .cd-marker::before {
-    /* triangle at the bottom of nav selected item */
+
     content: '';
     position: absolute;
     bottom: 3px;
@@ -734,29 +780,37 @@ a {
     height: 0;
     width: 0;
     border: 10px solid transparent;
-    border-bottom-color: inherit; }
+    border-bottom-color: inherit;
+}
+
 .nav-is-visible .cd-marker {
     -webkit-transform: translateZ(0);
     -moz-transform: translateZ(0);
     -ms-transform: translateZ(0);
     -o-transform: translateZ(0);
-    transform: translateZ(0); }
+    transform: translateZ(0);
+}
 
-/* these are the colors of the markers - line + arrow */
+
 .color-1 {
-    color: #403E3B; }
+    color: #403E3B;
+}
 
 .color-2 {
-    color: #403E3B; }
+    color: #403E3B;
+}
 
 .color-3 {
-    color: #403E3B; }
+    color: #403E3B;
+}
 
 .color-4 {
-    color: #403E3B; }
+    color: #403E3B;
+}
 
 .color-5 {
-    color: #403E3B; }
+    color: #403E3B;
+}
 
 main {
     -webkit-transition: -webkit-transform 0.5s;
@@ -769,7 +823,9 @@ main {
     -o-transform: translateZ(0);
     transform: translateZ(0);
     -webkit-backface-visibility: hidden;
-    backface-visibility: hidden; }
+    backface-visibility: hidden;
+}
+
 main h1 {
     text-align: center;
     font-size: 2.4rem;
@@ -777,13 +833,16 @@ main h1 {
     color: #ffffff;
     margin: 2em auto;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; }
+    -moz-osx-font-smoothing: grayscale;
+}
+
 main.nav-is-visible {
     -webkit-transform: translateY(80px);
     -moz-transform: translateY(80px);
     -ms-transform: translateY(80px);
     -o-transform: translateY(80px);
-    transform: translateY(80px); }
+    transform: translateY(80px);
+}
 
 
 
