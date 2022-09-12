@@ -524,7 +524,6 @@ section article a {
 }
 
 
-/* ---Primary style--- */
 *, *::after, *::before {
     box-sizing: border-box;
 }
@@ -533,7 +532,6 @@ a {
     text-decoration: none;
 }
 
-/* ---Main Components ---- */
 
 
 .cd-logo {
